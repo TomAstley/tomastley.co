@@ -14,16 +14,38 @@ export default function Home() {
         </Header>
 
         <section>
-          <p style={{maxWidth: '700px'}}>
-            Technology Director and Developer with over 15 years of experience developing and leading digital projects. My background has
-            allowed me to contribute to the creative process from concept to delivery while managing small teams of developers.
+          <p style={{ maxWidth: "700px" }}>
+            Technology Director with over 15 years of experience developing and leading digital projects. My unique background allows me to
+            help drive the creative process to success from concept to delivery, both as a technology leader and individual contributor.
           </p>
         </section>
 
-   
+        <section>
+          <h2>Management Skills</h2>
+          <h3></h3>
+
+          <Grid cols={2} rows={1} min="auto" max="225px">
+            <div>
+              <ul>
+                <li key="projectmanagement">Project Management</li>
+                <li key="communications">Client Communications</li>
+                <li key="scoping">Budgeting and Scoping</li>
+                <li key="managing">Managing Small Teams</li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li key="hiring">Talent Acquisition</li>
+                <li key="pr">New Hire Onboarding</li>
+                <li key="pr">Performance Reviews</li>
+              </ul>
+            </div>
+          </Grid>
+        </section>
+
         <section>
           <h2>Skills</h2>
-          <Grid cols={4} rows={2} min="auto" max="225px">
+          <Grid cols={4} rows={1} min="auto" max="205px">
             <div>
               <h3>Front-end</h3>
               <ul>
@@ -49,67 +71,16 @@ export default function Home() {
               <ul>
                 <li key="react">React</li>
                 <li key="VueJs">VueJs</li>
-                <li key="Bootstrap">Bootstrap</li>
                 <li key="NextJS">NextJS</li>
               </ul>
             </div>
-            <div>
-              <h3>Software & Tools</h3>
-              <ul>
-                <li key="git">GIT</li>
-                <li key="adobe">Adobe Creative Suite</li>
-                <li key="notion">Notion</li>
-                <li key="vscode">VSCode</li>
-              </ul>
-            </div>
-            <div>
-              <h3>CMS</h3>
-              <ul>
-                <li key="wordpress">Wordpress</li>
-                <li key="Drupal">Drupal</li>
-                <li key="Sanity">Sanity</li>
-              </ul>
-            </div>
+
             <div>
               <h3>Databases</h3>
               <ul>
                 <li key="mysql">MySQL</li>
                 <li key="Postgres">Postgres</li>
                 <li key="MongoDB">MongoDB</li>
-              </ul>
-            </div>
-          </Grid>
-        </section>
-        <section>
-          <h2>Management Skills</h2>
-          <Grid cols={1} rows={1} min="auto" max="225px">
-            <div>
-              <ul>
-                <li key="hiring">Hiring</li>
-                <li key="pr">Performance Reviews</li>
-                <li key="communications">Client Communications</li>
-                <li key="scoping">Budgeting and Scoping</li>
-                <li key="managing">Managing Small Teams</li>
-              </ul>
-            </div>
-          </Grid>
-        </section>
-
-        <section>
-          <h2>Education</h2>
-          <Grid cols={1} rows={1} min="auto" max="270px">
-            <div>
-              <ul>
-                <li>
-                  <h3>Columbia College Chicago</h3>
-                  <p>
-                    (BA) Interactive Multimedia
-                    <br />
-                    2005 - 2007
-                    <br />
-                    GPA: 3.98
-                  </p>
-                </li>
               </ul>
             </div>
           </Grid>
@@ -151,13 +122,32 @@ export default function Home() {
           </Grid>
         </section>
 
+        <section>
+          <h2>Education</h2>
+          <Grid cols={1} rows={1} min="auto" max="270px">
+            <div>
+              <ul>
+                <li>
+                  <h3>Columbia College Chicago</h3>
+                  <p>
+                    (BA) Interactive Multimedia
+                    <br />
+                    2005 - 2007
+                    <br />
+                    GPA: 3.98
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </Grid>
+        </section>
 
         <section>
           <FlexRow width="60px" styles={{ "justify-content": "space-between" }}>
-            <Link href="https://www.linkedin.com/in/tom-astley/" target="_blank">
+            <Link aria-label="LinkedIn Profile" href="https://www.linkedin.com/in/tom-astley/" target="_blank">
               <LinkedInLogo />
             </Link>
-            <Link href="mailto:tastley@gmail.com">
+            <Link aria-label="Email Address" href="mailto:tastley@gmail.com">
               <EmailLogo />
             </Link>
           </FlexRow>
