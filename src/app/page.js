@@ -100,7 +100,7 @@ export default function Home() {
             <div key="AgencyEA">
               <h3>AgencyEA</h3>
               <p>
-                February 2014 – June 201
+                February 2014 – June 2010
                 <br />
                 Lead Interactive Developer
               </p>
