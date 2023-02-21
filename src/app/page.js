@@ -36,7 +36,7 @@ export default function Home() {
             <div>
               <ul>
                 <li key="hiring">Talent Acquisition</li>
-                <li key="pr">New Hire Onboarding</li>
+                <li key="Onboarding">New Hire Onboarding</li>
                 <li key="pr">Performance Reviews</li>
               </ul>
             </div>
