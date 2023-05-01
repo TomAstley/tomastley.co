@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Container, FlexRow, Grid } from "@/components/Layout/Layout";
 import { Header } from "@/components/Header/Header";
 import { LinkedInLogo, EmailLogo } from "@/components/Logos";
+import { BulletList, Company } from "@/components/Homepage/Homepage";
 
 export default function Home() {
   return (
@@ -19,6 +20,88 @@ export default function Home() {
             help drive the creative process to success from concept to delivery, both as a technology leader and individual contributor.
           </p>
         </section>
+
+        <section>
+          <h2>Experience</h2>
+          <Grid max="800px" cols={1} rows={1}>
+            <div key="88">
+              <h3>88 Brand Partners</h3>
+              <Company>
+                June 2015 – Present
+                <br />
+                Director of Creative Technology
+              </Company>
+              <BulletList>
+                <li>
+                  <span>
+                    Delivered multiple client websites that exceeded SEO performance, user engagement, and overall site useability.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Migrated all hosted client sites and internal development servers to separate cloud instances, reducing the monthly cost
+                    and significantly improving reliability.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Managed a combination of internal developers and freelance resources to complete development projects on budget and on
+                    time.
+                  </span>
+                </li>
+              </BulletList>
+            </div>
+            <div key="AgencyEA">
+              <h3>AgencyEA</h3>
+              <Company>
+                February 2014 – June 2010
+                <br />
+                Lead Interactive Developer
+              </Company>
+              <BulletList>
+                <li>
+                  <span>
+                    Developed large-scale experiential digital projects for clients like Hilton and Hampton Hotels, increasing engagement.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Co-designed and developed an internal employee check-in board to enhance communication while employees were out at event
+                    sites.
+                  </span>
+                </li>
+              </BulletList>
+            </div>
+            <div key="Digitas">
+              <h3>Digitas LBi</h3>
+              <Company>
+                June 2012 - February 2014 <br />
+                Senior Creative Software Engineer
+              </Company>
+              <BulletList>
+                <li>
+                  <span>
+                    Developed a mobile experience for Sprint utilizing the Facebook API to create a personalized 3D world navigated through
+                    gyroscopic controls.
+                  </span>
+                </li>
+              </BulletList>
+            </div>
+            <div key="Ogilvy">
+              <h3>Ogilvy and Mather</h3>
+              <Company>
+                July 2008 – July 2012 <br />
+                Senior Web Developer
+              </Company>
+              <BulletList>
+                <li>
+                  <span>Developed rich media ads and immersive flash-based websites for Huggies, Dove, CDW, and Oscar Mayer.</span>
+                </li>
+              </BulletList>
+            </div>
+          </Grid>
+        </section>
+
 
         <section>
           <h2>Management Skills</h2>
@@ -82,42 +165,6 @@ export default function Home() {
                 <li key="Postgres">Postgres</li>
                 <li key="MongoDB">MongoDB</li>
               </ul>
-            </div>
-          </Grid>
-        </section>
-
-        <section>
-          <h2>Experience</h2>
-          <Grid>
-            <div key="88">
-              <h3>88 Brand Partners</h3>
-              <p>
-                June 2015 – Present
-                <br />
-                Director of Creative Technology
-              </p>
-            </div>
-            <div key="AgencyEA">
-              <h3>AgencyEA</h3>
-              <p>
-                February 2014 – June 2010
-                <br />
-                Lead Interactive Developer
-              </p>
-            </div>
-            <div key="Digitas">
-              <h3>Digitas LBi</h3>
-              <p>
-                June 2012 - February 2014 <br />
-                Senior Creative Software Engineer
-              </p>
-            </div>
-            <div key="Ogilvy">
-              <h3>Ogilvy and Mather</h3>
-              <p>
-                July 2008 – July 2012 <br />
-                Senior Web Developer
-              </p>
             </div>
           </Grid>
         </section>

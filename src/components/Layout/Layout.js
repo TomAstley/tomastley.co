@@ -15,16 +15,17 @@ const FlexRowStyled = styled.div`
 
 const GridStyled = styled.div`
   display: grid;
+  grid-gap: 20px;
   p {
     margin: 0;
   }
   li {
     line-height: 1.35rem;
   }
-  @media (min-width: 600px) {
+  /* @media (min-width: 600px) {
     grid-template-columns: repeat(2, minmax(auto, 300px));
     grid-template-rows: repeat(${(props) => props.rows}, 1fr);
-  }
+  } */
   @media (min-width: 768px) {
     grid-template-columns: repeat(${(props) => props.cols}, minmax(${(props) => props.min}, ${(props) => props.max}));
     grid-template-rows: repeat(${(props) => props.rows}, 1fr);
