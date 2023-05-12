@@ -54,7 +54,7 @@ export default function Home() {
             <div key="AgencyEA">
               <h3>AgencyEA</h3>
               <Company>
-                February 2014 – June 2010
+                February 2014 – June 2015
                 <br />
                 Lead Interactive Developer
               </Company>
