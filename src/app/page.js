@@ -16,8 +16,10 @@ export default function Home() {
 
         <section>
           <p style={{ maxWidth: "700px" }}>
-            Technology Director with over 15 years of experience developing and leading digital projects. My unique background allows me to
-            help drive the creative process to success from concept to delivery, both as a technology leader and individual contributor.
+            Technology Director with over 15 years of experience developing and
+            leading digital projects. My unique background allows me to help
+            drive the creative process to success from concept to delivery, both
+            as a technology leader and individual contributor.
           </p>
         </section>
 
@@ -34,19 +36,35 @@ export default function Home() {
               <BulletList>
                 <li>
                   <span>
-                    Delivered multiple client websites that exceeded SEO performance, user engagement, and overall site useability.
+                    Delivered multiple client websites that surpassed SEO
+                    performance, user engagement, and overall usability
+                    benchmarks.
                   </span>
                 </li>
                 <li>
                   <span>
-                    Migrated all hosted client sites and internal development servers to separate cloud instances, reducing the monthly cost
-                    and significantly improving reliability.
+                    Migrated all hosted client sites and internal development
+                    servers to separate cloud instances, reducing the monthly
+                    cost and significantly improving reliability.
                   </span>
                 </li>
                 <li>
                   <span>
-                    Managed a combination of internal developers and freelance resources to complete development projects on budget and on
-                    time.
+                    Managed a team of internal developers and freelance
+                    resources to complete projects on budget and on time.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Mentored junior developers in full-stack web development,
+                    enhancing their programming skills and accuracy.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Conducted “Lunch and Learn” sessions on topics like AI and
+                    SEO to educate the agency, fostering better client
+                    communication.
                   </span>
                 </li>
               </BulletList>
@@ -61,13 +79,16 @@ export default function Home() {
               <BulletList>
                 <li>
                   <span>
-                    Developed large-scale experiential digital projects for clients like Hilton and Hampton Hotels, increasing engagement.
+                    Developed large-scale experiential digital projects for
+                    clients like Hilton and Hampton Hotels, increasing
+                    engagement.
                   </span>
                 </li>
                 <li>
                   <span>
-                    Co-designed and developed an internal employee check-in board to enhance communication while employees were out at event
-                    sites.
+                    Co-designed and developed an internal employee check-in
+                    board to enhance communication while employees were out at
+                    event sites.
                   </span>
                 </li>
               </BulletList>
@@ -81,8 +102,9 @@ export default function Home() {
               <BulletList>
                 <li>
                   <span>
-                    Developed a mobile experience for Sprint utilizing the Facebook API to create a personalized 3D world navigated through
-                    gyroscopic controls.
+                    Developed a mobile experience for Sprint utilizing the
+                    Facebook API to create a personalized 3D world navigated
+                    through gyroscopic controls.
                   </span>
                 </li>
               </BulletList>
@@ -95,13 +117,15 @@ export default function Home() {
               </Company>
               <BulletList>
                 <li>
-                  <span>Developed rich media ads and immersive flash-based websites for Huggies, Dove, CDW, and Oscar Mayer.</span>
+                  <span>
+                    Developed rich media ads and immersive flash-based websites
+                    for Huggies, Dove, CDW, and Oscar Mayer.
+                  </span>
                 </li>
               </BulletList>
             </div>
           </Grid>
         </section>
-
 
         <section>
           <h2>Management Skills</h2>
@@ -191,7 +215,11 @@ export default function Home() {
 
         <section>
           <FlexRow width="60px" styles={{ "justify-content": "space-between" }}>
-            <Link aria-label="LinkedIn Profile" href="https://www.linkedin.com/in/tom-astley/" target="_blank">
+            <Link
+              aria-label="LinkedIn Profile"
+              href="https://www.linkedin.com/in/tom-astley/"
+              target="_blank"
+            >
               <LinkedInLogo />
             </Link>
             <Link aria-label="Email Address" href="mailto:tastley@gmail.com">
